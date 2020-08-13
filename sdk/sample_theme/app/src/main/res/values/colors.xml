@@ -1,0 +1,6 @@
+<resources>
+    <color name="title_bar_background">#8eac00</color>
+    <color name="title_bar_text">#452b72</color>
+    <color name="window_background">#f9ba15</color>
+    <color name="text">#bf0c43</color>
+</resources>

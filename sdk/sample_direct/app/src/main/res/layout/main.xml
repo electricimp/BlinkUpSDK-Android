@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:onClick="defaultNetwork"
+        android:text="@string/default_network_ui" />
+
+     <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:onClick="customSsid"
+        android:text="@string/custom_ssid_ui" />
+
+     <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:onClick="customWps"
+        android:text="@string/custom_wps_ui" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:onClick="ethernet"
+        android:text="@string/custom_ethernet" />
+
+  <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clearSavedData"
+        android:text="@string/clear_saved_data" />
+
+</LinearLayout>

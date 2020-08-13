@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BlinkUp Direct Sample</string>
+    <string name="default_network_ui">Default Network UI</string>
+    <string name="custom_ssid_ui">Custom SSID UI</string>
+    <string name="custom_wps_ui">Custom WPS UI</string>
+    <string name="custom_ethernet">Custom Ethernet UI</string>
+    <string name="ssid">ssid</string>
+    <string name="ssid_empty_error">ssid cannot be empty</string>
+    <string name="password">password</string>
+    <string name="wps_pin">wps pin</string>
+    <string name="use_proxy">Use proxy</string>
+    <string name="server">server</string>
+    <string name="port">port</string>
+    <string name="invalid_port">invalid port</string>
+    <string name="username">username</string>
+    <string name="use_static_ip">Use static IP</string>
+    <string name="ip_address">ip address</string>
+    <string name="netmask">netmask</string>
+    <string name="gateway">gateway</string>
+    <string name="dns1">dns1</string>
+    <string name="dns2">dns2</string>
+    <string name="missing">missing</string>
+    <string name="invalid_address">invalid address</string>
+    <string name="send_blinkup">Go!</string>
+    <string name="clear_saved_data">Clear Saved Data</string>
+    <string name="clear_done">App data cleared</string>
+    <string name="blinkup_complete">
+        BlinkUp complete.
+    </string>
+    <string name="clear_complete">
+        Device settings cleared.
+    </string>
+</resources>

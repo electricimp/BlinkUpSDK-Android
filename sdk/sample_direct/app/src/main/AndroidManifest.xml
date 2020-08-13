@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.electricimp.blinkup.sample.direct">
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:allowBackup="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TypeSsidActivity"
+            android:label="@string/custom_ssid_ui" />
+        <activity
+            android:name=".TypeWpsActivity"
+            android:label="@string/custom_wps_ui" />
+        <activity
+            android:name=".EthernetActivity"
+            android:label="@string/custom_ethernet" />
+        <activity android:name=".BlinkupCompleteActivity" />
+        <activity android:name=".ClearCompleteActivity" />
+    </application>
+
+</manifest>

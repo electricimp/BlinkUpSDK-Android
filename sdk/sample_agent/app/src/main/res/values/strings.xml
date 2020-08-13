@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BlinkUp Agent URL Sample</string>
+    <string name="configure">Configure</string>
+    <string name="reset">Reset</string>
+    <string name="plan_id">Plan ID:</string>
+    <string name="agent_url">Agent URL:</string>
+    <string name="impee_id">Impee ID:</string>
+    <string name="claimed_at">Claimed At:</string>
+    <string name="fetching_agent_url">Fetching agent URL</string>
+    <string name="unknown">Unknown</string>
+    <string name="timeout">Timeout</string>
+</resources>

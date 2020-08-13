@@ -1,0 +1,15 @@
+<resources>
+    <style name="AppBaseTheme" parent="android:Theme.Light" />
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+        <item name="android:windowTitleStyle">@style/WindowTitle</item>
+    </style>
+    <style name="WindowTitleBackground">
+        <item name="android:background">@color/title_bar_background</item>
+    </style>
+    <style name="WindowTitle">
+      <item name="android:textColor">@color/title_bar_text</item>
+  </style>
+</resources>

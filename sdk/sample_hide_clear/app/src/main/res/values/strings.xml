@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BlinkUp Hide Clear Sample</string>
+    <string name="configure_an_imp">Configure an Imp</string>
+    <string name="clear_device_settings">Clear device settings</string>
+</resources>

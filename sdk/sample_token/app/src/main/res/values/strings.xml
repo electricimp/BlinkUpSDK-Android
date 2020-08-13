@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BlinkUp Token Sample</string>
+    <string name="configure_an_imp">Configure an Imp</string>
+    <string name="acquire_setup_token">Acquire Setup Token</string>
+    
+    <string name="mode">Mode</string>
+    <string name="ssid">SSID</string>
+    <string name="password">Password</string>
+    <string name="pin">PIN</string>
+    <string name="token">Token</string>
+
+    <string name="value_null">(null)</string>
+    <string name="value_empty">(empty)</string>
+</resources>

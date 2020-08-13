@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BlinkUp Strings Sample</string>
+    <string name="configure_an_imp">Configure an Imp</string>
+    <string name="custom_choose_wifi_network">
+        Custom Choose WiFi Network
+    </string>
+    <string name="custom_wps_info">Custom WPS Info</string>
+    <string name="custom_clear_device_settings">
+        Custom Clear Device Settings
+    </string>
+    <string name="custom_clear_wireless">Custom Clear Wireless</string>
+    <string name="custom_send_blinkup">Custom BlinkUp Button</string>
+    <string name="custom_legacy_mode">Custom Legacy Mode</string>
+    <string name="custom_legacy_mode_desc">
+        Custom Legacy Mode Description
+    </string>
+    <string name="custom_ok">Custom OK</string>
+    <string name="custom_ssid_hint">Custom SSID Hint</string>
+    <string name="custom_password_hint">Custom Password Hint</string>
+    <string name="custom_remember_password">Custom Remember Password</string>
+    <string name="custom_wps_pin_hint">Custom WPS PIN Hint</string>
+    <string name="custom_change_network">Custom Change network</string>
+    <string name="custom_connect_using_wps">Custom Connect Using WPS</string>
+    <string name="custom_countdown_desc">Custom Countdown Description</string>
+    <string name="custom_blinkup_desc">
+        Custom BlinkUp instructions. Ask the user to hold up the screen to the
+        imp, describe where the imp is, how your device looks like, etc.
+    </string>
+    <string name="custom_low_frame_rate_title">Custom Low Frame Rate</string>
+    <string name="custom_low_frame_rate_desc">
+        Custom Low Frame Rate Description
+    </string>
+    <string name="custom_low_frame_rate_go_to_settings">
+        Custom Go To Settings
+    </string>
+    <string name="custom_low_frame_rate_proceed_anyway">
+        Custom Proceed Anyway
+    </string>
+</resources>
