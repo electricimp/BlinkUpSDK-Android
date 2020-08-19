@@ -26,7 +26,7 @@ git submodule update --remote
 
 To learn how to add the BlinkUp SDK files to your app project, please see the relevant documentation included with each of the SDK:
 
-- [Android SDK Installation](./android/README.md)
+- [Android SDK Installation](./sdk/README.md)
 
 ## Release Notes and Known Issues ##
 
