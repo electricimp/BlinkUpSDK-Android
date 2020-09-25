@@ -1,4 +1,4 @@
-# Electric Imp Android BlinkUp SDK 6.4.3 #
+# Electric Imp Android BlinkUp SDK 6.4.4 #
 
 - [Introduction](#introduction)
 - [Installation](#installation)
@@ -121,6 +121,10 @@ The Android BlinkUp SDK contains the following third-party code:
 For information on licensing, please see the file `licensing/README.md`.
 
 ## Release Notes ##
+
+### 6.4.4 ###
+
+- Support 120Hz frame rate of Samsung Galaxy S20.
 
 ### 6.4.3 ###
 
