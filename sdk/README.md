@@ -1,4 +1,4 @@
-# Electric Imp Android BlinkUp SDK 6.4.4 #
+# Electric Imp Android BlinkUp SDK 6.4.5 #
 
 - [Introduction](#introduction)
 - [Installation](#installation)
@@ -15,7 +15,7 @@ Electric Imp's BlinkUp™ technology is used to activate and configure devices b
 
 #### Notice ####
 
-The Electric Imp Android BlinkUp SDK is licensed solely for the provision of BlinkUp services within mobile apps developed by or on behalf of Electric Imp customers. All rights reserved. The Android BlinkUp SDK is copyright Twilio, Inc. 2020.
+The Electric Imp Android BlinkUp SDK is licensed solely for the provision of BlinkUp services within mobile apps developed by or on behalf of Electric Imp customers. All rights reserved. The Android BlinkUp SDK is copyright Twilio, Inc. 2021.
 
 ## Installation ##
 
@@ -122,9 +122,13 @@ For information on licensing, please see the file `licensing/README.md`.
 
 ## Release Notes ##
 
+### 6.4.5 ###
+
+- Under Android 11 on devices running a 90Hz or 120Hz display refresh rate, switch display to 60Hz during BlinkUp for greater stability.
+
 ### 6.4.4 ###
 
-- Support 120Hz frame rate of Samsung Galaxy S20.
+- Support 120Hz frame rate on Samsung Galaxy S20 (and possibly other devices running refresh rates >60Hz).
 
 ### 6.4.3 ###
 
