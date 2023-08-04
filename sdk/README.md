@@ -1,4 +1,4 @@
-# Electric Imp Android BlinkUp SDK 6.4.5 #
+# Electric Imp Android BlinkUp SDK 6.4.6 #
 
 - [Introduction](#introduction)
 - [Installation](#installation)
@@ -15,7 +15,7 @@ Electric Imp's BlinkUp™ technology is used to activate and configure devices b
 
 #### Notice ####
 
-The Electric Imp Android BlinkUp SDK is licensed solely for the provision of BlinkUp services within mobile apps developed by or on behalf of Electric Imp customers. All rights reserved. The Android BlinkUp SDK is copyright Twilio, Inc. 2021.
+The Electric Imp Android BlinkUp SDK is licensed solely for the provision of BlinkUp services within mobile apps developed by or on behalf of Electric Imp customers. All rights reserved. The Android BlinkUp SDK is copyright KORE Wireless, Inc. 2023.
 
 ## Installation ##
 
@@ -121,6 +121,10 @@ The Android BlinkUp SDK contains the following third-party code:
 For information on licensing, please see the file `licensing/README.md`.
 
 ## Release Notes ##
+
+### 6.4.6 ###
+
+- Electric Imp is now owned by [KORE Wireless](https://korewireless.com).
 
 ### 6.4.5 ###
 
