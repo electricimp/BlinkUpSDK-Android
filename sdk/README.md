@@ -1,4 +1,4 @@
-# Electric Imp Android BlinkUp SDK 6.4.3 #
+# Electric Imp Android BlinkUp SDK 6.5.0 #
 
 - [Introduction](#introduction)
 - [Installation](#installation)
