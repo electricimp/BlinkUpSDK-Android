@@ -1,30 +1,24 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion '30.0.3'
+  namespace 'com.electricimp.blinkup.sample.agent'
 
-    defaultConfig {
-        applicationId 'com.electricimp.blinkup.sample.agent'
-        minSdkVersion 19
-        targetSdkVersion 30
-        versionCode 1
-        versionName '1.0'
+  defaultConfig {
+    applicationId 'com.electricimp.blinkup.sample.agent'
+    minSdkVersion 19
+    targetSdkVersion 34
+    compileSdk 34
+    versionCode 1
+    versionName '1.0'
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
     }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
-}
-
-repositories {
-    maven {
-        url "$projectDir/repo"
-    }
+  }
 }
 
 dependencies {
-    implementation 'com.electricimp:blinkup:6.4.5'
+  implementation fileTree(dir: 'repo', include: ['*.aar', '*.jar'], exclude: [])
 }

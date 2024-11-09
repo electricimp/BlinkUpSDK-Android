@@ -1,4 +1,4 @@
-# Electric Imp Android BlinkUp SDK 6.4.5 #
+# Electric Imp Android BlinkUp SDK 6.5.0 #
 
 - [Introduction](#introduction)
 - [Installation](#installation)
@@ -15,7 +15,7 @@ Electric Imp's BlinkUp™ technology is used to activate and configure devices b
 
 #### Notice ####
 
-The Electric Imp Android BlinkUp SDK is licensed solely for the provision of BlinkUp services within mobile apps developed by or on behalf of Electric Imp customers. All rights reserved. The Android BlinkUp SDK is copyright Twilio, Inc. 2021.
+The Electric Imp Android BlinkUp SDK is licensed solely for the provision of BlinkUp services within mobile apps developed by or on behalf of Electric Imp customers. All rights reserved. The Android BlinkUp SDK is copyright KORE Wireless, Inc. 2023.
 
 ## Installation ##
 
@@ -29,10 +29,8 @@ After you have compiled a sample project successfully, you can integrate the Bli
 1. Open your project in Android Studio. Copy the directory `repo` into `app/repo` in the project list.
 2. Add the following code to `app/build.gradle`:
    ```java
-    repositories {
-      maven {
-        url "$projectDir/repo"
-      }
+    dependencies {
+      implementation fileTree(dir: 'repo', include: ['*.aar', '*.jar'], exclude: [])
     }
     ```
 
@@ -85,7 +83,7 @@ blinkup = new BlinkupController();
 blinkup.setPlanID(retrievedPlanID);
 ```
 
-You can now call one of the SDK's *setupDevice(...)* functions according to whether your imp-enabled device connects by Ethernet, cellular or WiFi. Whichever of these calls you use, the SDK will retrieve a new setup token, bundle it with the previously set plan ID and send them to the device using BlinkUp.
+You can now call one of the SDK's setupDevice(...) functions based on your imp-enabled device's connection type—Ethernet, cellular, or WiFi. If your device connects by cellular and requires a custom APN, you can use setupDeviceWithCustomApn(...). Whichever of these calls you use, the SDK will retrieve a new setup token, bundle it with the previously set plan ID, and send them to the device using BlinkUp
 
 **Note** If you do not call *setPlanID()*, then the SDK will acquire a new plan ID for you.
 
@@ -122,13 +120,10 @@ For information on licensing, please see the file `licensing/README.md`.
 
 ## Release Notes ##
 
-### 6.4.5 ###
+### 6.5.0 ###
 
-- Under Android 11 on devices running a 90Hz or 120Hz display refresh rate, switch display to 60Hz during BlinkUp for greater stability.
+- introduces a new option allowing users to set a custom APN for cellular connections, with the flexibility to leave it blank if the default APN is preferred.
 
-### 6.4.4 ###
-
-- Support 120Hz frame rate on Samsung Galaxy S20 (and possibly other devices running refresh rates >60Hz).
 
 ### 6.4.3 ###
 

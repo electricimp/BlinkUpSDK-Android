@@ -1,4 +1,4 @@
-# The Electric Imp BlinkUp SDK for Android 6.4.5 #
+# The Electric Imp BlinkUp SDK for Android 6.5.0 #
 
 This repo contains the Electric Imp BlinkUp™ SDK for Android as it is made available to Electric Imp customers. It mirrors the downloadable files hosted by the [Dev Center](https://developer.electricimp.com/manufacturing/sdkdocs), but in a form that allows developers to add the SDK to their app project repos as a sub-module. This will allow them to pull in SDK changes manually at build time, or automatically through their build scripts.
 
